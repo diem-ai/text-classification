@@ -1,0 +1,2 @@
+# text-classification
+The project aims to apply Naives Bayes on text data .  We will use one of Selection Best Feature techniques to chose only features that contribute to the performance of the prediction. After that, we will analyse and compare the evaluation metrics including accuracy , confusion matrix and classification report between baseline accuracy, TF-IDF + Bayes and Word Embedding + Bayes.
