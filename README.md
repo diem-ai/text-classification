@@ -4,7 +4,7 @@
 
 - The article will show you how to apply Naives Bayes on text data after the tokenization and vectorization.  We will use one of Selection Best Feature techniques to chose only features that contribute to the performance of the prediction. After that, we will analyse and compare the evaluation metrics including accuracy , confusion matrix and classification report between baseline accuracy, TF-IDF + Bayes and Word Embedding + Bayes.
 
-- Check out the blog spot for more detail: [Text Classification with TF-IDF, Word Embedding and Naive Bayes](https://diem-ai.blogspot.com/2020/05/text-classification-with-tf-idf-word.html)
+- Check out ![Alt Blog](/blogger.png) for more detail: [Text Classification with TF-IDF, Word Embedding and Naive Bayes](https://diem-ai.blogspot.com/2020/05/text-classification-with-tf-idf-word.html)
 
 ## The project covers:
 
