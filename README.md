@@ -17,7 +17,7 @@
 5) What is the average number of non-word characters (anything other than a letter, digit or underscore) per document for not spam and spam documents?
 - As the result, 3 new features are created: len_text', 'digits', 'non_alpha_char'
 
-### <code>NativeBayes_Tf-Idf.ipynb</code>: Transform text data into Term Frequency - Inverse Document Frequency, select the best feature with f_classif and fit the transformed data to Bayesian algorithm: 
+### <code>NativeBayes_Tf-Idf.ipynb</code>: Transform text data into Term Frequency - Inverse Document Frequency, select the best features with f_classif and fit the transformed data to Bayesian algorithm: 
 - The accurary score is 91%. It is 5% better than the baseline.
 - From Classification Report:
   - The F1-score (spam class) is 74% and F1-score (Not Spam class) is 95%
@@ -25,7 +25,7 @@
   - The correction of prediction = True Positive (TP) + True Negative (TN) = 878 + 140 = 918
   - The misclassification = False Negative (FN) + False Positive (FP) = 84 + 13 = 97
 
-### <code>NativeBayes_word2vec.ipynb</code>Transform text data into Word Embedding, select the best feature with f_classif and fit the transformed data to Bayesian algorithm: 
+### <code>NativeBayes_word2vec.ipynb</code>Transform text data into Word Embedding, select the best features with f_classif and fit the transformed data to Bayesian algorithm: 
 - The accurary score is 94%. It is 8% better than the baseline (86%).
 - From Classification Report:
   - The F1-score (spam class) is 80% and F1-score (Not Spam class) is 96%
